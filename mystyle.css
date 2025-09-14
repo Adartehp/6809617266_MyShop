@@ -1,6 +1,5 @@
 body {
-    background-color: #fefcf6;
-    margin: 0;
+    background-color: #fefcf8;
 }
 .heading {
     position: sticky;
@@ -71,7 +70,6 @@ body {
     color: #f4efe6;
     margin-left: 10px;
 }
-
 .coupon_nav a {
     text-decoration: none;
     color: #797768;
@@ -95,4 +93,48 @@ body {
 
 .coupon_nav :active {
     transform: scale(0.85);
+}
+.product {
+    justify-content: center;
+    background-color: #f4efe6;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    height: auto;
+    border-radius: 4px;
+}
+.topic {
+    text-align: center;
+    height: 300px;
+    display: flex;
+    overflow: scroll;
+    background-color: #fefcf8;
+    gap: 15px;
+}
+#bodyy {
+    margin-top: -20px;
+}
+.product button {
+    width: 20;
+    background-color: #797768;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    color: #f4efe6;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: relative;
+    top: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
 }
