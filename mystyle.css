@@ -159,8 +159,8 @@ button.add:active {
     font-size: 100%;
 }
 .product img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 250px;
     border-radius: 4px;
     margin: 2px 0;
 }
@@ -196,7 +196,8 @@ img#cont {
 footer {
     background-color: #797768;
     color: #f4efe6;
-    padding: 7px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 #help {
     font-size: larger;
@@ -204,4 +205,16 @@ footer {
 }
 #mail a {
     color: #fffeec;
+}
+#price {
+    font-weight: bold;
+    color: #4f4d40;
+}
+#type {
+    color: #999788;
+}
+#name {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #6a685a;
 }
