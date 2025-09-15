@@ -2,7 +2,6 @@ body {
     background-color: #fefcf8;
     overflow-x: hidden;
 }
-
 .heading {
     position: sticky;
     top: 0;
@@ -114,13 +113,12 @@ body {
 }
 .topic {
     width:100%;
-    margin: 0;
+    margin: 3px;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     text-align: center;
     display: flex;
-    background-color: #fefcf8;
     gap: 5px;
 }
 
@@ -148,9 +146,10 @@ button.add:active {
     transform: scale(0.85);
 }
 
-h1 {
-    background-color: #fefcf8;
+#bodyy h1{
     padding: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    color: #797768;
 }
 #bodyy {
     margin-top: -20px;
@@ -164,4 +163,45 @@ h1 {
     height: auto;
     border-radius: 4px;
     margin: 2px 0;
+}
+video {
+    margin:15px;
+    border-radius: 15px;
+}
+.introduce {
+    text-align: center;
+}
+.intro {
+    font-size:x-large;
+    font-family:fantasy;
+    color: #797768;
+    margin: 20px;
+    margin-top: 40px;
+}
+#intro {
+    color: #797768;
+}
+span {
+    font-weight: bold;
+}
+.foot {
+    background-color: #fcfaf6;
+    font-family:fantasy;
+}
+img#cont {
+    width: 35px;
+    height: auto;
+    padding: 5px;
+}
+footer {
+    background-color: #797768;
+    color: #f4efe6;
+    padding: 7px;
+}
+#help {
+    font-size: larger;
+    margin-bottom: 1px;
+}
+#mail a {
+    color: #fffeec;
 }
