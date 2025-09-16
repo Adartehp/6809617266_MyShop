@@ -151,9 +151,6 @@ button.add:active {
     font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
     color: #797768;
 }
-#bodyy {
-    margin-top: -20px;
-}
 .product p {
     margin: 0.5%;
     font-size: 100%;
@@ -217,4 +214,17 @@ footer {
     margin-top: 10px;
     font-size: 17px;
     color: #6a685a;
+}
+.banner{
+    margin: 20px;
+}
+.banner img{
+    width: 100%;
+}
+.banner a :hover {
+    transform: scale(1.05);
+}
+.banner2 img{
+    width: 100%;
+    background-color: #5f5c4b;
 }
